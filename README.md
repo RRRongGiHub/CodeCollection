@@ -1,6 +1,6 @@
 # CodeCollection
-<h3>个人代码整理集合</h3>
-<p>阻止冒泡：</p>
+## 个人代码整理集合
+#### 阻止冒泡：
 ```JavaScript
 var event = event || window.event;
 if(event && event.stopPropagation)
@@ -12,8 +12,7 @@ else
   event.cancelBubble = true; //ie678 ie浏览器
 }
 ```
-封装可视区域宽度：
---
+##### 封装可视区域宽度：
 ```JavaScript
 function client(){
 	if(window.inerWidth != null)//ie9 + 最新浏览器
